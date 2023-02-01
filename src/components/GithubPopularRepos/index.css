@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: beige;
+  padding: 20px;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title-text {
+  font-family: 'Lobster';
+}
+
+.repos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-details-containers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-family: 'sans Serif';
+}

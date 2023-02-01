@@ -1,0 +1,21 @@
+.filter-button-container {
+  margin: 5px;
+}
+
+.language-filter-button {
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.language-filter-button:hover {
+  color: #0284c7;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0284c7;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 5px;
+}
